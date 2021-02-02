@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myresponse"
+        android:text="myresponse"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/shape_item"
+        android:background="#DBE5C5"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/otherrespnce"
+        android:text="yourresponse"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/shape_item"
+        android:layout_alignParentEnd="true"
+        android:background="#2FE69F"
+        android:textColor="#000"
+        android:drawableRight="@drawable/otheresponse"
+        />
+</RelativeLayout>

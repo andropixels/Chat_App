@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "678759166706",
+    "project_id": "whatsappclone-450f1",
+    "storage_bucket": "whatsappclone-450f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678759166706:android:458fb48acbd293f476d66b",
+        "android_client_info": {
+          "package_name": "com.rahul.chatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678759166706-93l3e0vmos3tan5p5ica5d8gruoj8fng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8MgEecNL9W9UlKlDEJowlJVNp-6zMnOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678759166706-93l3e0vmos3tan5p5ica5d8gruoj8fng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678759166706:android:78b36b0903ece37476d66b",
+        "android_client_info": {
+          "package_name": "com.rahul.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678759166706-gjl2rtv82cv0m94poj15ancs8nt4jbl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahul.whatsapp",
+            "certificate_hash": "cbb1b90d6a3379e5fb8a6f80e67d68dbed3a64aa"
+          }
+        },
+        {
+          "client_id": "678759166706-93l3e0vmos3tan5p5ica5d8gruoj8fng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8MgEecNL9W9UlKlDEJowlJVNp-6zMnOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678759166706-93l3e0vmos3tan5p5ica5d8gruoj8fng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

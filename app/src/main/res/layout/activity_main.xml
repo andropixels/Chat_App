@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="phonenumber"
+        android:id="@+id/phone"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="code"
+        android:id="@+id/code"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/phone"
+        />
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code"
+        android:layout_margin="20dp"
+        android:hint="send"
+        android:backgroundTint="#000"
+        android:textColor="@color/white"
+        android:text="send"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/authbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendbtn"
+        android:layout_margin="20dp"
+       android:text="authorize"
+        android:backgroundTint="#000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
